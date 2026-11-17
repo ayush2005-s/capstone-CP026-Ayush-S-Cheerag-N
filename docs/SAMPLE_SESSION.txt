@@ -1,0 +1,1430 @@
+Data folder: C:\Users\you\NutriPlanner\data
+
+============================================================================
+                                NUTRIPLANNER
+                      YOUR PERSONAL NUTRITION PLANNER
+============================================================================
+1. Register
+2. Login
+3. Exit
+
+Enter your choice: abc
+Error: Invalid choice 'abc'. Please enter a number from 1 to 3.
+Enter your choice: 7
+Error: Invalid choice '7'. Please enter a number from 1 to 3.
+Enter your choice: 2
+
+============================================================================
+                                   LOGIN
+============================================================================
+Press Enter without typing a username to go back.
+
+Username: ghost
+Password: nothing1
+Error: Invalid username or password.
+You have 2 attempts left.
+Username: 
+
+============================================================================
+                                NUTRIPLANNER
+                      YOUR PERSONAL NUTRITION PLANNER
+============================================================================
+1. Register
+2. Login
+3. Exit
+
+Enter your choice: 1
+
+============================================================================
+                           REGISTER A NEW ACCOUNT
+============================================================================
+Press Enter without typing a username to go back.
+
+Username (3-20 letters, numbers or _): pr
+Error: Username must be between 3 and 20 characters long.
+Username (3-20 letters, numbers or _): priya sharma
+Error: Username can contain only letters, numbers and underscores (_), with
+       no spaces.
+Username (3-20 letters, numbers or _): priya
+Passwords need at least 6 characters, including a letter and a number.
+Password: abc
+Error: Password must be between 6 and 64 characters long.
+Password: Priya123
+Confirm password: Priya124
+Error: The two passwords do not match. Please try again.
+Password: Priya123
+Confirm password: Priya123
+
+YOUR PROFILE
+----------------------------------------------------------------------------
+These details are used to calculate your BMI and daily calorie needs.
+Full name: 
+Error: Name cannot be empty.
+Full name: Priya Sharma
+Age in years (15-100): ten
+Error: 'ten' is not a whole number. Please use digits only, for example 15.
+Age in years (15-100): 12
+Error: Please enter a number from 15 to 100.
+Age in years (15-100): 21
+Gender:
+  1. Male
+  2. Female
+  3. Other / prefer not to say
+Enter your choice (1-3): 5
+Error: Please enter a number from 1 to 3.
+Enter your choice (1-3): 2
+Height in cm (100-250): -160
+Error: The value cannot be negative.
+Height in cm (100-250): abc
+Error: 'abc' is not a number. Please use digits, for example 100.
+Height in cm (100-250): 160
+Weight in kg (25-300): 0
+Error: Please enter a value from 25 to 300.
+Weight in kg (25-300): 55
+Activity level:
+  1. Sedentary - little or no exercise
+  2. Lightly active - light exercise 1-3 days a week
+  3. Moderately active - moderate exercise 3-5 days a week
+  4. Very active - hard exercise 6-7 days a week
+  5. Extra active - very hard exercise or a physical job
+Enter your choice (1-5): 2
+Dietary preference:
+  1. Vegetarian
+  2. Non-Vegetarian
+  3. Vegan
+Enter your choice (1-3): 1
+Health goal:
+  1. Weight Loss - eat about 500 kcal less than you burn
+  2. Weight Maintenance - eat about what you burn
+  3. Weight Gain - eat about 500 kcal more than you burn
+Enter your choice (1-3): 1
+
+Registration successful. Welcome to NutriPlanner, Priya Sharma!
+Please choose Login and sign in with the username 'priya'.
+Press Enter to continue...
+
+============================================================================
+                                NUTRIPLANNER
+                      YOUR PERSONAL NUTRITION PLANNER
+============================================================================
+1. Register
+2. Login
+3. Exit
+
+Enter your choice: 1
+
+============================================================================
+                           REGISTER A NEW ACCOUNT
+============================================================================
+Press Enter without typing a username to go back.
+
+Username (3-20 letters, numbers or _): PRIYA
+Error: The username 'priya' is already taken. Please choose another one.
+Username (3-20 letters, numbers or _): 
+Registration cancelled.
+
+============================================================================
+                                NUTRIPLANNER
+                      YOUR PERSONAL NUTRITION PLANNER
+============================================================================
+1. Register
+2. Login
+3. Exit
+
+Enter your choice: 2
+
+============================================================================
+                                   LOGIN
+============================================================================
+Press Enter without typing a username to go back.
+
+Username: priya
+Password: wrong12
+Error: Invalid username or password.
+You have 2 attempts left.
+Username: priya
+Password: Priya123
+
+Login successful. Welcome back, Priya Sharma!
+
+============================================================================
+                                 MAIN MENU
+============================================================================
+Logged in as: Priya Sharma (priya)
+
+1. View Profile
+2. Update Profile
+3. Calculate BMI
+4. Calculate Daily Calorie Requirements
+5. Food Database
+6. Meal Planner
+7. Daily Nutrition Tracker
+8. View Nutrition Report
+9. Logout
+
+Enter your choice: 10
+Error: Invalid choice '10'. Please enter a number from 1 to 9.
+Enter your choice: 1
+
+============================================================================
+                                YOUR PROFILE
+============================================================================
+Username              : priya
+Name                  : Priya Sharma
+Age                   : 21 years
+Gender                : Female
+Height                : 160.0 cm
+Weight                : 55.0 kg
+Activity level        : Lightly active (light exercise 1-3 days a week)
+Dietary preference    : Vegetarian
+Health goal           : Weight Loss
+Member since          : 17 Nov 2026
+----------------------------------------------------------------------------
+BMI                   : 21.5 (Normal weight)
+Daily calorie target  : 1,266 kcal
+
+Press Enter to continue...
+
+============================================================================
+                                 MAIN MENU
+============================================================================
+Logged in as: Priya Sharma (priya)
+
+1. View Profile
+2. Update Profile
+3. Calculate BMI
+4. Calculate Daily Calorie Requirements
+5. Food Database
+6. Meal Planner
+7. Daily Nutrition Tracker
+8. View Nutrition Report
+9. Logout
+
+Enter your choice: 2
+
+============================================================================
+                               UPDATE PROFILE
+============================================================================
+What would you like to change?
+
+ 1. Name                [Priya Sharma]
+ 2. Age                 [21 years]
+ 3. Gender              [Female]
+ 4. Height              [160.0 cm]
+ 5. Weight              [55.0 kg]
+ 6. Activity level      [Lightly active]
+ 7. Dietary preference  [Vegetarian]
+ 8. Health goal         [Weight Loss]
+ 9. Update all details
+10. Change password
+11. Back to main menu
+
+Enter your choice: 5
+
+Weight in kg (25-300) [55.0]: abc
+Error: 'abc' is not a number. Please use digits, for example 25.
+Weight in kg (25-300) [55.0]: 54
+
+Profile saved. Your daily calorie target is now 1,252 kcal.
+
+============================================================================
+                               UPDATE PROFILE
+============================================================================
+What would you like to change?
+
+ 1. Name                [Priya Sharma]
+ 2. Age                 [21 years]
+ 3. Gender              [Female]
+ 4. Height              [160.0 cm]
+ 5. Weight              [54.0 kg]
+ 6. Activity level      [Lightly active]
+ 7. Dietary preference  [Vegetarian]
+ 8. Health goal         [Weight Loss]
+ 9. Update all details
+10. Change password
+11. Back to main menu
+
+Enter your choice: 8
+
+Health goal:
+  1. Weight Loss - eat about 500 kcal less than you burn   (current)
+  2. Weight Maintenance - eat about what you burn
+  3. Weight Gain - eat about 500 kcal more than you burn
+Enter your choice (1-3), or press Enter to keep Weight Loss: 
+
+Profile saved. Your daily calorie target is now 1,252 kcal.
+
+============================================================================
+                               UPDATE PROFILE
+============================================================================
+What would you like to change?
+
+ 1. Name                [Priya Sharma]
+ 2. Age                 [21 years]
+ 3. Gender              [Female]
+ 4. Height              [160.0 cm]
+ 5. Weight              [54.0 kg]
+ 6. Activity level      [Lightly active]
+ 7. Dietary preference  [Vegetarian]
+ 8. Health goal         [Weight Loss]
+ 9. Update all details
+10. Change password
+11. Back to main menu
+
+Enter your choice: 11
+
+============================================================================
+                                 MAIN MENU
+============================================================================
+Logged in as: Priya Sharma (priya)
+
+1. View Profile
+2. Update Profile
+3. Calculate BMI
+4. Calculate Daily Calorie Requirements
+5. Food Database
+6. Meal Planner
+7. Daily Nutrition Tracker
+8. View Nutrition Report
+9. Logout
+
+Enter your choice: 3
+
+============================================================================
+                               BMI CALCULATOR
+============================================================================
+Formula: BMI = weight (kg) / height (m) x height (m)
+
+1. Calculate my BMI (160.0 cm, 54.0 kg)
+2. Calculate BMI for another height and weight
+3. Back to main menu
+
+Enter your choice: 1
+
+BMI RESULT
+----------------------------------------------------------------------------
+Height                : 160.0 cm (1.6 m)
+Weight                : 54.0 kg
+Calculation           : 54.0 / (1.6 x 1.6) = 21.1
+Your BMI              : 21.1
+Category              : Normal weight
+
+What this means:
+  Your weight is in the healthy range for your height. A balanced diet and
+  regular activity will help you stay here.
+
+BMI categories for adults (World Health Organization):
+  below 18.5      Underweight
+  18.5 - 24.9     Normal weight   <-- you
+  25.0 - 29.9     Overweight
+  30.0 and above  Obese
+
+Healthy weight range  : 47.4 - 63.7 kg for this height
+
+Note: BMI does not tell muscle from fat, so very muscular people can show a
+      high BMI.
+Note: For South Asian adults, health risks start to rise at a lower BMI
+      (around 23).
+
+Press Enter to continue...
+
+============================================================================
+                               BMI CALCULATOR
+============================================================================
+Formula: BMI = weight (kg) / height (m) x height (m)
+
+1. Calculate my BMI (160.0 cm, 54.0 kg)
+2. Calculate BMI for another height and weight
+3. Back to main menu
+
+Enter your choice: 2
+
+Height in cm (100-250): 170
+Weight in kg (25-300): 65
+
+BMI RESULT
+----------------------------------------------------------------------------
+Height                : 170.0 cm (1.7 m)
+Weight                : 65.0 kg
+Calculation           : 65.0 / (1.7 x 1.7) = 22.5
+Your BMI              : 22.5
+Category              : Normal weight
+
+What this means:
+  Your weight is in the healthy range for your height. A balanced diet and
+  regular activity will help you stay here.
+
+BMI categories for adults (World Health Organization):
+  below 18.5      Underweight
+  18.5 - 24.9     Normal weight   <-- you
+  25.0 - 29.9     Overweight
+  30.0 and above  Obese
+
+Healthy weight range  : 53.5 - 72.0 kg for this height
+
+Note: BMI does not tell muscle from fat, so very muscular people can show a
+      high BMI.
+Note: For South Asian adults, health risks start to rise at a lower BMI
+      (around 23).
+
+Press Enter to continue...
+
+============================================================================
+                               BMI CALCULATOR
+============================================================================
+Formula: BMI = weight (kg) / height (m) x height (m)
+
+1. Calculate my BMI (160.0 cm, 54.0 kg)
+2. Calculate BMI for another height and weight
+3. Back to main menu
+
+Enter your choice: 3
+
+============================================================================
+                                 MAIN MENU
+============================================================================
+Logged in as: Priya Sharma (priya)
+
+1. View Profile
+2. Update Profile
+3. Calculate BMI
+4. Calculate Daily Calorie Requirements
+5. Food Database
+6. Meal Planner
+7. Daily Nutrition Tracker
+8. View Nutrition Report
+9. Logout
+
+Enter your choice: 4
+
+============================================================================
+                         DAILY CALORIE REQUIREMENTS
+============================================================================
+Based on: Female, 21 years, 160.0 cm, 54.0 kg, lightly active
+
+STEP 1: BASAL METABOLIC RATE (BMR)
+----------------------------------------------------------------------------
+Energy your body uses at complete rest (Mifflin-St Jeor equation):
+  BMR = 10 x weight + 6.25 x height - 5 x age - 161
+      = 10 x 54 + 6.25 x 160 - 5 x 21 - 161
+      = 1,274 kcal per day
+
+STEP 2: TOTAL DAILY ENERGY EXPENDITURE (TDEE)
+----------------------------------------------------------------------------
+Calories you burn on a typical day, including activity:
+  TDEE = BMR x 1.375 (Lightly active)
+       = 1,274 x 1.375 = 1,752 kcal per day
+
+STEP 3: ADJUST FOR YOUR GOAL (WEIGHT LOSS)
+----------------------------------------------------------------------------
+  Weight Loss: eat about 500 kcal less than you burn (-500 kcal).
+  1,752 - 500 = 1,252 kcal
+
+YOUR RESULT
+----------------------------------------------------------------------------
+BMR                   : 1,274 kcal
+TDEE                  : 1,752 kcal
+Daily calorie target  : 1,252 kcal
+
+Suggested daily macronutrients (30% protein, 40% carbohydrates, 30% fat):
+  Protein          94 g   (376 kcal, 4 kcal per gram)
+  Carbohydrates   125 g   (500 kcal, 4 kcal per gram)
+  Fat              42 g   (378 kcal, 9 kcal per gram)
+
+Important: these numbers are estimates from standard formulas, not a medical
+prescription. Needs vary from person to person; a doctor or registered
+dietitian can give you personal advice.
+
+Press Enter to continue...
+
+============================================================================
+                                 MAIN MENU
+============================================================================
+Logged in as: Priya Sharma (priya)
+
+1. View Profile
+2. Update Profile
+3. Calculate BMI
+4. Calculate Daily Calorie Requirements
+5. Food Database
+6. Meal Planner
+7. Daily Nutrition Tracker
+8. View Nutrition Report
+9. Logout
+
+Enter your choice: 5
+
+============================================================================
+                               FOOD DATABASE
+============================================================================
+74 foods. Nutrition values are approximate sample values per serving.
+
+1. View all foods
+2. Search for a food
+3. View foods by category
+4. View foods that suit my diet (Vegetarian)
+5. View nutritional information of a food
+6. Add a new food
+7. Back to main menu
+
+Enter your choice: 2
+
+Search for (part of a food name, or a category such as 'fruit'): dosa
+
+SEARCH RESULTS: 2 foods match 'dosa'
+----------------------------------------------------------------------------
+  ID Food                   Serving              kcal Prot Carb  Fat Diet
+----------------------------------------------------------------------------
+   3 Masala dosa            1 piece (150 g)       260  5.5 36.0 10.5 Vegan
+   2 Plain dosa             1 medium (75 g)       135  3.5 22.0  3.7 Vegan
+Per serving. Prot = protein, Carb = carbohydrates, Fat = fat (all in grams).
+Tip: use option 5 with a food ID to see its full nutritional information.
+Press Enter to continue...
+
+============================================================================
+                               FOOD DATABASE
+============================================================================
+74 foods. Nutrition values are approximate sample values per serving.
+
+1. View all foods
+2. Search for a food
+3. View foods by category
+4. View foods that suit my diet (Vegetarian)
+5. View nutritional information of a food
+6. Add a new food
+7. Back to main menu
+
+Enter your choice: 2
+
+Search for (part of a food name, or a category such as 'fruit'): x
+Error: Please type at least 2 letters to search.
+
+============================================================================
+                               FOOD DATABASE
+============================================================================
+74 foods. Nutrition values are approximate sample values per serving.
+
+1. View all foods
+2. Search for a food
+3. View foods by category
+4. View foods that suit my diet (Vegetarian)
+5. View nutritional information of a food
+6. Add a new food
+7. Back to main menu
+
+Enter your choice: 5
+
+Type a food name to search, or a food ID (Enter to cancel): 1
+Selected: Idli, 1 piece (40 g), 58 kcal
+
+NUTRITIONAL INFORMATION
+----------------------------------------------------------------------------
+Food                  : Idli
+ID                    : 1
+Category              : Breakfast dishes
+Serving size          : 1 piece (40 g)
+Diet type             : Vegan
+Source                : NutriPlanner sample data (approximate values)
+
+Per serving:
+  Calories           58 kcal
+  Protein           2.0 g    (14% of energy)
+  Carbohydrates    12.0 g    (83% of energy)
+  Fat               0.2 g    (3% of energy)
+
+This food suits your vegetarian diet.
+Press Enter to continue...
+
+============================================================================
+                               FOOD DATABASE
+============================================================================
+74 foods. Nutrition values are approximate sample values per serving.
+
+1. View all foods
+2. Search for a food
+3. View foods by category
+4. View foods that suit my diet (Vegetarian)
+5. View nutritional information of a food
+6. Add a new food
+7. Back to main menu
+
+Enter your choice: 4
+
+FOODS FOR A VEGETARIAN DIET
+----------------------------------------------------------------------------
+  ID Food                   Serving              kcal Prot Carb  Fat Diet
+----------------------------------------------------------------------------
+   1 Idli                   1 piece (40 g)         58  2.0 12.0  0.2 Vegan
+   2 Plain dosa             1 medium (75 g)       135  3.5 22.0  3.7 Vegan
+   3 Masala dosa            1 piece (150 g)       260  5.5 36.0 10.5 Vegan
+   4 Upma                   1 bowl (150 g)        190  4.5 28.0  6.8 Vegan
+   5 Poha                   1 plate (150 g)       180  3.5 30.0  5.2 Vegan
+   6 Medu vada              1 piece (50 g)        135  4.5 13.0  7.2 Vegan
+   7 Uttapam                1 piece (120 g)       200  5.5 32.0  5.5 Vegan
+   8 Ven pongal             1 bowl (150 g)        210  6.0 30.0  7.4 Veg
+   9 Aloo paratha           1 piece (100 g)       260  5.5 36.0 10.3 Veg
+  10 Moong dal chilla       1 piece (80 g)        120  6.5 15.0  3.8 Vegan
+  11 Oats porridge (milk)   1 bowl (40 g oats)    240 10.0 32.0  8.0 Veg
+  12 Steamed rice           1 cup cooked (150 g)  195  4.0 43.0  0.4 Vegan
+  13 Brown rice             1 cup cooked (150 g)  170  3.9 35.0  1.3 Vegan
+  14 Chapati (with oil)     1 medium (40 g)       120  3.1 18.0  3.7 Vegan
+  15 Roti (phulka, no oil)  1 piece (30 g)         85  2.9 17.5  0.6 Vegan
+  16 Poori                  1 piece (25 g)        100  1.6 11.0  5.5 Vegan
+  17 Curd rice              1 bowl (200 g)        220  6.0 34.0  6.8 Veg
+  18 Lemon rice             1 bowl (200 g)        290  4.5 46.0  9.8 Vegan
+  19 Vegetable biryani      1 plate (200 g)       290  6.5 45.0  9.5 Veg
+  21 Khichdi                1 bowl (200 g)        240  8.5 40.0  5.0 Veg
+  22 Whole wheat bread      1 slice (32 g)         80  4.0 13.7  1.1 Vegan
+  23 Dal (toor dal)         1 katori (150 g)      160  8.0 20.0  5.0 Vegan
+  24 Moong dal              1 katori (150 g)      130  8.5 18.0  2.8 Vegan
+  25 Sambar                 1 katori (150 g)      110  5.0 15.0  3.4 Vegan
+  26 Rasam                  1 katori (150 g)       60  2.0  8.0  2.2 Vegan
+  27 Rajma curry            1 katori (150 g)      170  8.0 22.0  5.5 Vegan
+  28 Chole (chana masala)   1 katori (150 g)      210  9.0 27.0  7.3 Vegan
+  29 Paneer butter masala   1 katori (150 g)      330 11.0 12.0 26.0 Veg
+  30 Palak paneer           1 katori (150 g)      250 11.0  8.0 19.5 Veg
+  31 Soya chunks curry      1 katori (30 g soya)  170 16.0 14.0  5.4 Vegan
+  32 Mixed vegetable curry  1 katori (150 g)      120  3.0 12.0  6.7 Vegan
+  33 Aloo sabzi (potato)    1 katori (150 g)      150  2.5 20.0  6.7 Vegan
+  34 Bhindi fry (okra)      1 katori (100 g)      110  2.2  8.0  7.7 Vegan
+  35 Spinach (cooked)       1 cup (180 g)          41  5.3  6.8  0.5 Vegan
+  36 Vegetable salad        1 bowl (100 g)         25  1.0  5.0  0.2 Vegan
+  37 Carrot (raw)           1 medium (60 g)        25  0.6  5.8  0.1 Vegan
+  38 Cucumber (raw)         1 cup sliced (100 g)   15  0.7  3.6  0.1 Vegan
+  39 Tomato (raw)           1 medium (120 g)       22  1.1  4.7  0.2 Vegan
+  40 Banana                 1 medium (118 g)      105  1.3 27.0  0.4 Vegan
+  41 Apple                  1 medium (180 g)       95  0.5 25.0  0.3 Vegan
+  42 Mango                  1 cup sliced (165 g)   99  1.4 24.7  0.6 Vegan
+  43 Orange                 1 medium (130 g)       62  1.2 15.4  0.2 Vegan
+  44 Papaya                 1 cup cubed (140 g)    55  0.7 13.7  0.4 Vegan
+  45 Guava                  1 medium (100 g)       68  2.6 14.3  1.0 Vegan
+  46 Grapes                 1 cup (150 g)         104  1.1 27.3  0.2 Vegan
+  47 Watermelon             1 cup diced (150 g)    46  0.9 11.5  0.2 Vegan
+  48 Pomegranate            1/2 cup seeds (87 g)   72  1.5 16.3  1.0 Vegan
+  49 Milk (toned)           1 glass (200 ml)      116  6.2  9.4  6.0 Veg
+  50 Curd (dahi)            1 katori (100 g)       62  3.5  4.7  3.3 Veg
+  51 Paneer                 100 g                 265 18.3  1.2 20.8 Veg
+  52 Buttermilk (chaas)     1 glass (200 ml)       37  1.8  2.8  2.0 Veg
+  53 Sweet lassi            1 glass (200 ml)      160  5.5 24.0  4.6 Veg
+  60 Tofu (firm)            100 g                 144 17.3  2.8  8.7 Vegan
+  61 Samosa                 1 piece (70 g)        200  3.5 22.0 11.0 Vegan
+  62 Dhokla                 2 pieces (60 g)        95  4.0 14.0  2.6 Veg
+  63 Roasted chana          1 handful (30 g)      110  6.5 17.0  1.5 Vegan
+  64 Vegetable sandwich     1 sandwich (120 g)    215  8.5 30.0  6.5 Veg
+  65 Marie biscuits         4 biscuits (28 g)     125  2.2 21.0  3.6 Veg
+  66 Coconut chutney        2 tablespoons (30 g)   70  0.9  2.5  6.4 Vegan
+  67 Tea (milk, sugar)      1 cup (150 ml)         70  1.8 10.0  2.5 Veg
+  68 Coffee (milk, sugar)   1 cup (150 ml)         80  2.3 11.0  2.8 Veg
+  69 Coconut water          1 glass (240 ml)       46  1.7  8.9  0.5 Vegan
+  70 Fresh orange juice     1 glass (200 ml)       90  1.4 20.8  0.4 Vegan
+  71 Almonds                10 pieces (12 g)       70  2.5  2.6  6.0 Vegan
+  72 Peanuts (roasted)      1 handful (30 g)      175  7.1  6.5 14.9 Vegan
+  73 Peanut butter          1 tablespoon (16 g)    94  4.0  3.1  8.0 Vegan
+  74 Ghee                   1 teaspoon (5 g)       45  0.0  0.0  5.0 Veg
+Per serving. Prot = protein, Carb = carbohydrates, Fat = fat (all in grams).
+Tip: use option 5 with a food ID to see its full nutritional information.
+Press Enter to continue...
+
+============================================================================
+                               FOOD DATABASE
+============================================================================
+74 foods. Nutrition values are approximate sample values per serving.
+
+1. View all foods
+2. Search for a food
+3. View foods by category
+4. View foods that suit my diet (Vegetarian)
+5. View nutritional information of a food
+6. Add a new food
+7. Back to main menu
+
+Enter your choice: 6
+
+ADD A NEW FOOD
+----------------------------------------------------------------------------
+Enter the values for ONE serving. Press Enter on the name to cancel.
+Food name: Ragi dosa
+Category:
+   1. Breakfast dishes
+   2. Rice and breads
+   3. Dals and curries
+   4. Vegetables and salads
+   5. Fruits
+   6. Milk and dairy
+   7. Eggs, meat, fish and soy
+   8. Snacks and sides
+   9. Beverages
+  10. Nuts, seeds and fats
+  11. Other foods
+Enter your choice (1-11): 1
+Serving size, for example '1 bowl (150 g)': 1 piece (70 g)
+Calories per serving (kcal, 0-3000): 110
+Protein per serving (g, 0-300): 3
+Carbohydrates per serving (g, 0-300): 20
+Fat per serving (g, 0-300): 2
+Diet type:
+  1. Vegetarian
+  2. Non-Vegetarian
+  3. Vegan
+Enter your choice (1-3): 3
+
+Ragi dosa, 1 piece (70 g): 110 kcal, protein 3.0 g, carbohydrates 20.0 g,
+fat 2.0 g (Vegan, Breakfast dishes)
+Save this food? (y/n): y
+Food added with ID 1001. You can now find it in search and the meal planner.
+
+============================================================================
+                               FOOD DATABASE
+============================================================================
+75 foods. Nutrition values are approximate sample values per serving.
+
+1. View all foods
+2. Search for a food
+3. View foods by category
+4. View foods that suit my diet (Vegetarian)
+5. View nutritional information of a food
+6. Add a new food
+7. Back to main menu
+
+Enter your choice: 3
+Categories:
+   1. Breakfast dishes
+   2. Rice and breads
+   3. Dals and curries
+   4. Vegetables and salads
+   5. Fruits
+   6. Milk and dairy
+   7. Eggs, meat, fish and soy
+   8. Snacks and sides
+   9. Beverages
+  10. Nuts, seeds and fats
+  11. Other foods
+Enter your choice (1-11): 5
+
+FRUITS
+----------------------------------------------------------------------------
+  ID Food                   Serving              kcal Prot Carb  Fat Diet
+----------------------------------------------------------------------------
+  40 Banana                 1 medium (118 g)      105  1.3 27.0  0.4 Vegan
+  41 Apple                  1 medium (180 g)       95  0.5 25.0  0.3 Vegan
+  42 Mango                  1 cup sliced (165 g)   99  1.4 24.7  0.6 Vegan
+  43 Orange                 1 medium (130 g)       62  1.2 15.4  0.2 Vegan
+  44 Papaya                 1 cup cubed (140 g)    55  0.7 13.7  0.4 Vegan
+  45 Guava                  1 medium (100 g)       68  2.6 14.3  1.0 Vegan
+  46 Grapes                 1 cup (150 g)         104  1.1 27.3  0.2 Vegan
+  47 Watermelon             1 cup diced (150 g)    46  0.9 11.5  0.2 Vegan
+  48 Pomegranate            1/2 cup seeds (87 g)   72  1.5 16.3  1.0 Vegan
+Per serving. Prot = protein, Carb = carbohydrates, Fat = fat (all in grams).
+Tip: use option 5 with a food ID to see its full nutritional information.
+Press Enter to continue...
+
+============================================================================
+                               FOOD DATABASE
+============================================================================
+75 foods. Nutrition values are approximate sample values per serving.
+
+1. View all foods
+2. Search for a food
+3. View foods by category
+4. View foods that suit my diet (Vegetarian)
+5. View nutritional information of a food
+6. Add a new food
+7. Back to main menu
+
+Enter your choice: 7
+
+============================================================================
+                                 MAIN MENU
+============================================================================
+Logged in as: Priya Sharma (priya)
+
+1. View Profile
+2. Update Profile
+3. Calculate BMI
+4. Calculate Daily Calorie Requirements
+5. Food Database
+6. Meal Planner
+7. Daily Nutrition Tracker
+8. View Nutrition Report
+9. Logout
+
+Enter your choice: 6
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+Breakfast 0 | Lunch 0 | Evening Snacks 0 | Dinner 0
+Day total: 0 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 1
+
+Which meal:
+  1. Breakfast
+  2. Lunch
+  3. Evening Snacks
+  4. Dinner
+Enter your choice (1-4): 1
+
+Adding to Breakfast on Tue, 17 Nov 2026.
+Type a food name to search, or a food ID (Enter to cancel): idli
+Found: Idli, 1 piece (40 g), 58 kcal
+Number of servings of 1 piece (40 g) (for example 1, 2 or 0.5): 0
+Error: Please enter a value from 0.25 to 20.
+Number of servings of 1 piece (40 g) (for example 1, 2 or 0.5): 2
+Added 2 x Idli to Breakfast (116 kcal). Breakfast now has 116 kcal.
+Add another food to Breakfast? (y/n): y
+
+Adding to Breakfast on Tue, 17 Nov 2026.
+Type a food name to search, or a food ID (Enter to cancel): sambar
+Found: Sambar, 1 katori (150 g), 110 kcal
+Number of servings of 1 katori (150 g) (for example 1, 2 or 0.5): 1
+Added 1 x Sambar to Breakfast (110 kcal). Breakfast now has 226 kcal.
+Add another food to Breakfast? (y/n): n
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+Breakfast 226 | Lunch 0 | Evening Snacks 0 | Dinner 0
+Day total: 226 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 1
+
+Which meal:
+  1. Breakfast
+  2. Lunch
+  3. Evening Snacks
+  4. Dinner
+Enter your choice (1-4): 2
+
+Adding to Lunch on Tue, 17 Nov 2026.
+Type a food name to search, or a food ID (Enter to cancel): 14
+Selected: Chapati (with oil), 1 medium (40 g), 120 kcal
+Number of servings of 1 medium (40 g) (for example 1, 2 or 0.5): 2
+Added 2 x Chapati (with oil) to Lunch (240 kcal). Lunch now has 240 kcal.
+Add another food to Lunch? (y/n): y
+
+Adding to Lunch on Tue, 17 Nov 2026.
+Type a food name to search, or a food ID (Enter to cancel): dal
+
+3 foods match:
+ No. Food                   Serving              kcal Prot Carb  Fat Diet
+----------------------------------------------------------------------------
+   1 Dal (toor dal)         1 katori (150 g)      160  8.0 20.0  5.0 Vegan
+   2 Moong dal              1 katori (150 g)      130  8.5 18.0  2.8 Vegan
+   3 Moong dal chilla       1 piece (80 g)        120  6.5 15.0  3.8 Vegan
+Choose a food (1-3), or 0 to search again: 1
+Number of servings of 1 katori (150 g) (for example 1, 2 or 0.5): 1.5
+Added 1.5 x Dal (toor dal) to Lunch (240 kcal). Lunch now has 480 kcal.
+Add another food to Lunch? (y/n): y
+
+Adding to Lunch on Tue, 17 Nov 2026.
+Type a food name to search, or a food ID (Enter to cancel): chicken
+
+3 foods match:
+ No. Food                   Serving              kcal Prot Carb  Fat Diet
+----------------------------------------------------------------------------
+   1 Chicken biryani        1 plate (250 g)       400 20.0 48.0 14.0 Non-veg
+   2 Chicken curry          1 katori (150 g)      240 20.0  6.0 15.0 Non-veg
+   3 Grilled chicken breast 100 g                 165 31.0  0.0  3.6 Non-veg
+Choose a food (1-3), or 0 to search again: 2
+Note: Chicken curry is non-vegetarian, which does not match your vegetarian
+      preference.
+Add it anyway? (y/n): n
+Add a different food to Lunch? (y/n): n
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+Breakfast 226 | Lunch 480 | Evening Snacks 0 | Dinner 0
+Day total: 706 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 1
+
+Which meal:
+  1. Breakfast
+  2. Lunch
+  3. Evening Snacks
+  4. Dinner
+Enter your choice (1-4): 3
+
+Adding to Evening Snacks on Tue, 17 Nov 2026.
+Type a food name to search, or a food ID (Enter to cancel): tea
+Found: Tea (milk, sugar), 1 cup (150 ml), 70 kcal
+Number of servings of 1 cup (150 ml) (for example 1, 2 or 0.5): 1
+Added 1 x Tea (milk, sugar) to Evening Snacks (70 kcal). Evening Snacks now
+has 70 kcal.
+Add another food to Evening Snacks? (y/n): n
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+Breakfast 226 | Lunch 480 | Evening Snacks 70 | Dinner 0
+Day total: 776 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 1
+
+Which meal:
+  1. Breakfast
+  2. Lunch
+  3. Evening Snacks
+  4. Dinner
+Enter your choice (1-4): 4
+
+Adding to Dinner on Tue, 17 Nov 2026.
+Type a food name to search, or a food ID (Enter to cancel): ragi
+Found: Ragi dosa, 1 piece (70 g), 110 kcal
+Number of servings of 1 piece (70 g) (for example 1, 2 or 0.5): 2
+Added 2 x Ragi dosa to Dinner (220 kcal). Dinner now has 220 kcal.
+Add another food to Dinner? (y/n): n
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+Breakfast 226 | Lunch 480 | Evening Snacks 70 | Dinner 220
+Day total: 996 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 2
+
+MEALS FOR Tue, 17 Nov 2026
+----------------------------------------------------------------------------
+BREAKFAST  (2 items, 226 kcal)
+  No.  Food                      Servings    kcal  Protein   Carbs    Fat
+  -----------------------------------------------------------------------
+    1  Idli                             2     116      4.0    24.0    0.4
+    2  Sambar                           1     110      5.0    15.0    3.4
+  -----------------------------------------------------------------------
+       Breakfast total                        226      9.0    39.0    3.8
+
+LUNCH  (2 items, 480 kcal)
+  No.  Food                      Servings    kcal  Protein   Carbs    Fat
+  -----------------------------------------------------------------------
+    1  Chapati (with oil)               2     240      6.2    36.0    7.4
+    2  Dal (toor dal)                 1.5     240     12.0    30.0    7.5
+  -----------------------------------------------------------------------
+       Lunch total                            480     18.2    66.0   14.9
+
+EVENING SNACKS  (1 item, 70 kcal)
+  No.  Food                      Servings    kcal  Protein   Carbs    Fat
+  -----------------------------------------------------------------------
+    1  Tea (milk, sugar)                1      70      1.8    10.0    2.5
+  -----------------------------------------------------------------------
+       Evening Snacks total                    70      1.8    10.0    2.5
+
+DINNER  (1 item, 220 kcal)
+  No.  Food                      Servings    kcal  Protein   Carbs    Fat
+  -----------------------------------------------------------------------
+    1  Ragi dosa                        2     220      6.0    40.0    4.0
+  -----------------------------------------------------------------------
+       Dinner total                           220      6.0    40.0    4.0
+
+DAY TOTAL: 996 kcal, protein 35.0 g, carbohydrates 155.0 g, fat 25.2 g
+Servings are multiples of each food's serving size. Nutrients are in grams.
+Press Enter to continue...
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+Breakfast 226 | Lunch 480 | Evening Snacks 70 | Dinner 220
+Day total: 996 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 3
+
+Which meal:
+  1. Breakfast
+  2. Lunch
+  3. Evening Snacks
+  4. Dinner
+Enter your choice (1-4): 1
+
+  No.  Food                      Servings    kcal  Protein   Carbs    Fat
+  -----------------------------------------------------------------------
+    1  Idli                             2     116      4.0    24.0    0.4
+    2  Sambar                           1     110      5.0    15.0    3.4
+Number of the food to change (1-2), or 0 to cancel: 1
+New number of servings of 1 piece (40 g) (currently 2): 3
+Idli is now 3 serving(s), 174 kcal.
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+Breakfast 284 | Lunch 480 | Evening Snacks 70 | Dinner 220
+Day total: 1,054 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 4
+
+Which meal:
+  1. Breakfast
+  2. Lunch
+  3. Evening Snacks
+  4. Dinner
+Enter your choice (1-4): 1
+
+  No.  Food                      Servings    kcal  Protein   Carbs    Fat
+  -----------------------------------------------------------------------
+    1  Idli                             3     174      6.0    36.0    0.6
+    2  Sambar                           1     110      5.0    15.0    3.4
+Number of the food to remove (1-2), or 0 to cancel: 2
+Remove Sambar from Breakfast? (y/n): y
+Sambar was removed from Breakfast.
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+Breakfast 174 | Lunch 480 | Evening Snacks 70 | Dinner 220
+Day total: 944 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 5
+
+Which meal:
+  1. Breakfast
+  2. Lunch
+  3. Evening Snacks
+  4. Dinner
+Enter your choice (1-4): 3
+Remove all 1 food(s) from Evening Snacks? (y/n): n
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+Breakfast 174 | Lunch 480 | Evening Snacks 70 | Dinner 220
+Day total: 944 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 6
+
+Enter a date (DD-MM-YYYY), or today, yesterday, tomorrow [today]: 31-02-2026
+Error: '31-02-2026' is not a valid date. Please use DD-MM-YYYY, for example
+       17-11-2026.
+Enter a date (DD-MM-YYYY), or today, yesterday, tomorrow [today]: tomorrow
+Now planning meals for Wed, 18 Nov 2026.
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Wed, 18 Nov 2026 (tomorrow)
+Breakfast 0 | Lunch 0 | Evening Snacks 0 | Dinner 0
+Day total: 0 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 1
+
+Which meal:
+  1. Breakfast
+  2. Lunch
+  3. Evening Snacks
+  4. Dinner
+Enter your choice (1-4): 1
+
+Adding to Breakfast on Wed, 18 Nov 2026.
+Type a food name to search, or a food ID (Enter to cancel): banana
+Found: Banana, 1 medium (118 g), 105 kcal
+Number of servings of 1 medium (118 g) (for example 1, 2 or 0.5): 1
+Added 1 x Banana to Breakfast (105 kcal). Breakfast now has 105 kcal.
+Add another food to Breakfast? (y/n): n
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Wed, 18 Nov 2026 (tomorrow)
+Breakfast 105 | Lunch 0 | Evening Snacks 0 | Dinner 0
+Day total: 105 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 6
+
+Enter a date (DD-MM-YYYY), or today, yesterday, tomorrow [today]: today
+Now planning meals for Tue, 17 Nov 2026.
+
+============================================================================
+                                MEAL PLANNER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+Breakfast 174 | Lunch 480 | Evening Snacks 70 | Dinner 220
+Day total: 944 of 1,252 kcal target
+
+1. Add food to a meal
+2. View meals and nutritional totals
+3. Change the servings of a food
+4. Remove a food from a meal
+5. Clear a whole meal
+6. Choose another date
+7. Back to main menu
+
+Enter your choice: 7
+
+============================================================================
+                                 MAIN MENU
+============================================================================
+Logged in as: Priya Sharma (priya)
+
+1. View Profile
+2. Update Profile
+3. Calculate BMI
+4. Calculate Daily Calorie Requirements
+5. Food Database
+6. Meal Planner
+7. Daily Nutrition Tracker
+8. View Nutrition Report
+9. Logout
+
+Enter your choice: 7
+
+============================================================================
+                          DAILY NUTRITION TRACKER
+============================================================================
+Date: Tue, 17 Nov 2026 (today)
+
+Daily calorie target  : 1,252 kcal
+Calories consumed     : 944 kcal
+Remaining calories    : 308 kcal
+Protein intake        : 32.0 g of 94 g
+Carbohydrate intake   : 152.0 g of 125 g
+Fat intake            : 22.0 g of 42 g
+
+  Nutrient          Target    Eaten  Remaining  Progress
+  -------------------------------------------------------------------------
+  Calories (kcal)    1,252      944        308  [###############-----] 75%
+  Protein (g)           94     32.0       62.0  [#######-------------] 34%
+  Carbs (g)            125    152.0      -27.0  [####################] 122%
+  Fat (g)               42     22.0       20.0  [##########----------] 52%
+  A negative remaining value means the target was exceeded.
+
+Calories by meal: Breakfast 174 | Lunch 480 | Evening Snacks 70 | Dinner 220
+
+- You can still eat about 308 kcal today.
+- Protein is low compared with your calories. Good sources for your diet:
+  dal, paneer, curd, milk, chole and soya chunks.
+- Carbohydrates are high compared with your calories. Try a smaller portion
+  of rice or roti and add dal, vegetables or curd.
+
+1. Track another date
+2. Back to main menu
+
+Enter your choice: 1
+
+Enter a date (DD-MM-YYYY), or today, yesterday, tomorrow [today]: tomorrow
+
+============================================================================
+                          DAILY NUTRITION TRACKER
+============================================================================
+Date: Wed, 18 Nov 2026
+
+Daily calorie target  : 1,252 kcal
+Calories consumed     : 105 kcal
+Remaining calories    : 1,147 kcal
+Protein intake        : 1.3 g of 94 g
+Carbohydrate intake   : 27.0 g of 125 g
+Fat intake            : 0.4 g of 42 g
+
+  Nutrient          Target    Eaten  Remaining  Progress
+  -------------------------------------------------------------------------
+  Calories (kcal)    1,252      105      1,147  [##------------------] 8%
+  Protein (g)           94      1.3       92.7  [--------------------] 1%
+  Carbs (g)            125     27.0       98.0  [####----------------] 22%
+  Fat (g)               42      0.4       41.6  [--------------------] 1%
+  A negative remaining value means the target was exceeded.
+
+Calories by meal: Breakfast 105 | Lunch 0 | Evening Snacks 0 | Dinner 0
+
+- You can still eat about 1,147 kcal today.
+
+1. Track another date
+2. Back to main menu
+
+Enter your choice: 2
+
+============================================================================
+                                 MAIN MENU
+============================================================================
+Logged in as: Priya Sharma (priya)
+
+1. View Profile
+2. Update Profile
+3. Calculate BMI
+4. Calculate Daily Calorie Requirements
+5. Food Database
+6. Meal Planner
+7. Daily Nutrition Tracker
+8. View Nutrition Report
+9. Logout
+
+Enter your choice: 8
+
+============================================================================
+                             NUTRITION REPORTS
+============================================================================
+1. Today's nutrition report
+2. Nutrition report for another date
+3. Last 7 days summary
+4. Back to main menu
+
+Enter your choice: 1
+
+============================================================================
+                   NUTRIPLANNER - DAILY NUTRITION REPORT
+============================================================================
+Report for            : Tue, 17 Nov 2026
+Generated on          : 17 Nov 2026, 10:00
+
+1. USER PROFILE
+----------------------------------------------------------------------------
+Name                  : Priya Sharma (username: priya)
+Age and gender        : 21 years, Female
+Height and weight     : 160.0 cm, 54.0 kg
+Activity level        : Lightly active (light exercise 1-3 days a week)
+Dietary preference    : Vegetarian
+Health goal           : Weight Loss
+
+2. BMI RESULT
+----------------------------------------------------------------------------
+BMI                   : 21.1 (Normal weight)
+Healthy weight range  : 47.4 - 63.7 kg for your height
+
+3. DAILY CALORIE REQUIREMENTS
+----------------------------------------------------------------------------
+BMR (Mifflin-St Jeor) : 1,274 kcal
+TDEE (BMR x 1.375)    : 1,752 kcal
+Goal adjustment       : -500 kcal (Weight Loss)
+Daily calorie target  : 1,252 kcal
+Macronutrient targets : Protein 94 g, Carbohydrates 125 g, Fat 42 g
+
+4. MEAL DETAILS
+----------------------------------------------------------------------------
+BREAKFAST  (1 item, 174 kcal)
+  No.  Food                      Servings    kcal  Protein   Carbs    Fat
+  -----------------------------------------------------------------------
+    1  Idli                             3     174      6.0    36.0    0.6
+  -----------------------------------------------------------------------
+       Breakfast total                        174      6.0    36.0    0.6
+
+LUNCH  (2 items, 480 kcal)
+  No.  Food                      Servings    kcal  Protein   Carbs    Fat
+  -----------------------------------------------------------------------
+    1  Chapati (with oil)               2     240      6.2    36.0    7.4
+    2  Dal (toor dal)                 1.5     240     12.0    30.0    7.5
+  -----------------------------------------------------------------------
+       Lunch total                            480     18.2    66.0   14.9
+
+EVENING SNACKS  (1 item, 70 kcal)
+  No.  Food                      Servings    kcal  Protein   Carbs    Fat
+  -----------------------------------------------------------------------
+    1  Tea (milk, sugar)                1      70      1.8    10.0    2.5
+  -----------------------------------------------------------------------
+       Evening Snacks total                    70      1.8    10.0    2.5
+
+DINNER  (1 item, 220 kcal)
+  No.  Food                      Servings    kcal  Protein   Carbs    Fat
+  -----------------------------------------------------------------------
+    1  Ragi dosa                        2     220      6.0    40.0    4.0
+  -----------------------------------------------------------------------
+       Dinner total                           220      6.0    40.0    4.0
+
+DAY TOTAL: 944 kcal, protein 32.0 g, carbohydrates 152.0 g, fat 22.0 g
+Servings are multiples of each food's serving size. Nutrients are in grams.
+
+5. TOTAL NUTRITIONAL INTAKE
+----------------------------------------------------------------------------
+  Nutrient          Target    Eaten  Remaining  Progress
+  -------------------------------------------------------------------------
+  Calories (kcal)    1,252      944        308  [###############-----] 75%
+  Protein (g)           94     32.0       62.0  [#######-------------] 34%
+  Carbs (g)            125    152.0      -27.0  [####################] 122%
+  Fat (g)               42     22.0       20.0  [##########----------] 52%
+  A negative remaining value means the target was exceeded.
+
+6. REMAINING CALORIE ALLOWANCE
+----------------------------------------------------------------------------
+Remaining today: 308 kcal of your 1,252 kcal target.
+- You can still eat about 308 kcal today.
+- Protein is low compared with your calories. Good sources for your diet:
+  dal, paneer, curd, milk, chole and soya chunks.
+- Carbohydrates are high compared with your calories. Try a smaller portion
+  of rice or roti and add dal, vegetables or curd.
+
+----------------------------------------------------------------------------
+These figures are estimates from standard formulas and sample food values.
+They are not a medical prescription. Please consult a doctor or a registered
+dietitian before making major changes to your diet.
+============================================================================
+
+Save this report as a text file? (y/n): y
+Report saved as a text file:
+  C:\Users\you\NutriPlanner\data\reports\priya_2026-11-17_daily_report.txt
+
+============================================================================
+                             NUTRITION REPORTS
+============================================================================
+1. Today's nutrition report
+2. Nutrition report for another date
+3. Last 7 days summary
+4. Back to main menu
+
+Enter your choice: 3
+
+============================================================================
+                   NUTRIPLANNER - 7-DAY NUTRITION SUMMARY
+============================================================================
+Name                  : Priya Sharma (username: priya)
+Period                : 11 Nov 2026 to 17 Nov 2026
+Daily calorie target  : 1,252 kcal (Weight Loss)
+Generated on          : 17 Nov 2026, 10:00
+
+  Date                kcal  Target     Diff  Protein   Carbs    Fat  Foods
+  ------------------------------------------------------------------------
+  Wed, 11 Nov 2026       -   1,252        -        -       -      -      0
+  Thu, 12 Nov 2026       -   1,252        -        -       -      -      0
+  Fri, 13 Nov 2026       -   1,252        -        -       -      -      0
+  Sat, 14 Nov 2026       -   1,252        -        -       -      -      0
+  Sun, 15 Nov 2026       -   1,252        -        -       -      -      0
+  Mon, 16 Nov 2026       -   1,252        -        -       -      -      0
+  Tue, 17 Nov 2026     944   1,252     -308     32.0   152.0   22.0      5
+
+Days with food logged: 1 of 7
+Average on logged days: 944 kcal, protein 32.0 g, carbohydrates 152.0 g, fat
+22.0 g
+On average you ate 308 kcal below your target on the days you logged.
+Days without any food logged are shown with '-'. Targets use your current
+profile.
+
+----------------------------------------------------------------------------
+These figures are estimates from standard formulas and sample food values.
+They are not a medical prescription. Please consult a doctor or a registered
+dietitian before making major changes to your diet.
+============================================================================
+
+Save this report as a text file? (y/n): n
+
+============================================================================
+                             NUTRITION REPORTS
+============================================================================
+1. Today's nutrition report
+2. Nutrition report for another date
+3. Last 7 days summary
+4. Back to main menu
+
+Enter your choice: 4
+
+============================================================================
+                                 MAIN MENU
+============================================================================
+Logged in as: Priya Sharma (priya)
+
+1. View Profile
+2. Update Profile
+3. Calculate BMI
+4. Calculate Daily Calorie Requirements
+5. Food Database
+6. Meal Planner
+7. Daily Nutrition Tracker
+8. View Nutrition Report
+9. Logout
+
+Enter your choice: 9
+
+You have been logged out. See you soon, Priya Sharma!
+
+============================================================================
+                                NUTRIPLANNER
+                      YOUR PERSONAL NUTRITION PLANNER
+============================================================================
+1. Register
+2. Login
+3. Exit
+
+Enter your choice: 3
+
+Thank you for using NutriPlanner. Your data has been saved. Goodbye!

@@ -1,0 +1,10 @@
+# Compiled classes
+out/
+bin/
+*.class
+
+# Data created while running NutriPlanner (accounts, meals, reports)
+data/
+
+# Screen output written by the automated tests
+test-output/

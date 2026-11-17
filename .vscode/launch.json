@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run NutriPlanner",
+            "request": "launch",
+            "mainClass": "com.nutriplanner.Main",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run all tests",
+            "request": "launch",
+            "mainClass": "com.nutriplanner.AllTests",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
